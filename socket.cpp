@@ -46,11 +46,12 @@ int	main(void)
 
 	listen(server_fd, 5);
 
+	std::cout << "Server listing..." << std::endl;
 	while (true)
 	{
 		int client = accept(server_fd, NULL, NULL);
 		const char *msg = "Ola cliente\n";
-		send(client, msg, strlen(msg), 0);
+		send(client, msg, strlen(msg) + 5, 0);
 		close(client);
 	}
 

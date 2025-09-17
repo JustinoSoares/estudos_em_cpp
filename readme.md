@@ -11,25 +11,25 @@
 - [X] dup2
 - [X] fork
 - [ ] socketpair
-- [ ] htons
+- [X] htons
 - [ ] htonl
 - [ ] ntohs
 - [ ] ntohl
-- [ ] select
-- [ ] poll
-- [ ] epoll_create
-- [ ] epoll_ctl
-- [ ] epoll_wait
+- [X] select
+- [X] poll
+- [X] epoll_create
+- [X] epoll_ctl
+- [X] epoll_wait
 - [ ] kqueue
 - [ ] kevent
-- [ ] socket
-- [ ] accept
-- [ ] listen
-- [ ] send
-- [ ] recv
+- [X] socket
+- [X] accept
+- [X] listen
+- [X] send
+- [X] recv
 - [ ] chdir
-- [ ] bind
-- [ ] connect
+- [X] bind
+- [X] connect
 - [ ] getaddrinfo
 - [ ] freeaddrinfo
 - [ ] setsockopt
