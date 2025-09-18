@@ -4,46 +4,46 @@
 
 - [X] execve
 - [X] pipe
-- [ ] strerror
-- [ ] gai_strerror
-- [ ] errno
+- [X] strerror
+- [X] gai_strerror
+- [X] errno
 - [X] dup
 - [X] dup2
 - [X] fork
-- [ ] socketpair
+- [X] socketpair
 - [X] htons
-- [ ] htonl
-- [ ] ntohs
-- [ ] ntohl
+- [X] htonl
+- [X] ntohs
+- [X] ntohl
 - [X] select
 - [X] poll
 - [X] epoll_create
 - [X] epoll_ctl
 - [X] epoll_wait
-- [ ] kqueue
-- [ ] kevent
+- [X] kqueue
+- [X] kevent
 - [X] socket
 - [X] accept
 - [X] listen
 - [X] send
 - [X] recv
-- [ ] chdir
+- [X] chdir
 - [X] bind
 - [X] connect
-- [ ] getaddrinfo
-- [ ] freeaddrinfo
-- [ ] setsockopt
-- [ ] getsockname
-- [ ] getprotobyname
-- [ ] fcntl
+- [X] getaddrinfo
+- [X] freeaddrinfo
+- [X] setsockopt
+- [X] getsockname
+- [X] getprotobyname
+- [X] fcntl
 - [X] close
 - [X] read
 - [X] write
 - [X] waitpid
 - [X] kill
 - [X] signal
-- [ ] access
-- [ ] stat
+- [X] access
+- [X] stat
 - [X] open
 - [X] opendir
 - [X] readdir
